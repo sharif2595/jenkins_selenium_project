@@ -14,7 +14,7 @@ import org.testng.ITestResult;
 
 public class Itest_listener_logic implements ITestListener {
 
-	public static WebDriverManager driver;
+	public static WebDriver driver;
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
