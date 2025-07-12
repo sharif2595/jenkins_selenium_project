@@ -19,7 +19,7 @@ public class BaseClass extends Itest_listener_logic {
 	@BeforeClass
 	public void launch_browser() throws InterruptedException
 	{
-		driver= new EdgeDriver();
+		driver= new ChromeDriver();
 		driver.get(given_url); 
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
